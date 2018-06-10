@@ -11,7 +11,7 @@ body {
   overflow-y: scroll;
 }
 
-body a {
+.top a {
   color: #000;
 }
 
