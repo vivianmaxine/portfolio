@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vivian Maxine</title>
+</head>
+<body>
+
+<!--Scrollspy data-->
+<body data-spy="scroll" data-target=".navbar" data-offset="10">
+
+<!--Start the Bootstrap with container-fluid-->
+<div class="container-fluid"> <!--Page container-->
+  
+ <!--The header-->
+  <div class="row top"> <!--Top Row Start-->
+    <!--The logo-->
+    <div class="col-sm-2 logo">
+      <img class="centered" src="http://i64.tinypic.com/2i26hpu.jpg">
+    </div>
+    <!--The navigation-->
+    <nav class="col-sm-10 navbar">
+      <ul class="centered navbar navpills">
+        <li><a href="#section1">About</a></li>
+        <li><a href="#section2">Portfolio</a></li>
+        <li><a href="#section3">Contact</a></li>
+      </ul>
+    </nav>
+  </div> <!--Top Row End-->
+  
+  <!--The about section starts-->
+  <div class="row" id="section1"> <!--Intro Row Start-->
+    <!--Empty space to the left-->
+    <div class="col-sm-2"></div>
+    <!--Entire about section in the middle-->
+    <div class="col-sm-8 about">
+      <div class="row"> <!--Interior container starts-->
+        <!--Text + button on left for about section-->
+        <div class="col-sm-8 intro">
+          <p>Hi, I'm Vivian! I am a front-end web developer with experience in UX, web and graphic design, and photography.</p>
+          <hr>
+          <br>
+          <a href="#section3"><button class="centered btn">&nbsp let's create something amazing! &nbsp</button></a>
+        </div>
+        <!--Pic to the right for about section-->
+        <div class="col-sm-4 vivPic centeredVertical text-center">
+                  <img src="http://i67.tinypic.com/f4ji11.jpg" class="img-fluid" alt="Vivian | front-end web developer" title="Vivian | front-end web developer">
+        </div>
+      </div> <!--Interior Container Ends-->
+    </div>
+    <!--Empty space to the right-->
+    <div class="col-sm-2"></div>
+  </div> <!--Intro Row End-->
+  
+<div class="row" id="section2"> <!--Portfolio Row Starts-->
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8 portfolio">
+      <h2 class="text-center">Portfolio</h2>
+      <hr class="centered">
+      <!--Image gallery-->
+      <div class="row portfolioThumbs">
+        
+        <div class="flexIt">
+          <div><a href="https://codepen.io/vmcmv/pen/PRYKrR" target="_blank"><img class="portfolioIMG img-fluid" src="http://i65.tinypic.com/2nlcx2r.jpg"></a></div>
+          
+          <div>
+            <a href="https://codepen.io/vmcmv/pen/odjQyJ" target="_blank"><img class="portfolioIMG img-fluid" src="http://i63.tinypic.com/35i17wp.jpg"></a></div>
+        </div>
+        
+        <div class="flexIt">
+          <div><a href="https://codepen.io/vmcmv/pen/eyomZo" target="_blank"><img class="portfolioIMG img-fluid" src="http://i65.tinypic.com/2mgw3nq.jpg"></a></div>
+          <div><a href="https://codepen.io/vmcmv/pen/xjwQvQ" target="_blank"><img class="portfolioIMG img-fluid" src="http://i68.tinypic.com/o8wa5k.jpg"></a></div>
+          </div>
+        
+        <div class="flexIt">
+          <div><a href="https://codepen.io/vmcmv/pen/pVjqod" target="_blank"><img class="portfolioIMG img-fluid" src="http://i66.tinypic.com/xlkphc.jpg"></a></div>
+          <div><a href="https://codepen.io/vmcmv/pen/bMgObK" target="_blank"><img class="portfolioIMG img-fluid" src="http://i66.tinypic.com/dde1pf.jpg"></a></div>
+        </div>
+      </div>
+    </div>
+  </div> <!--Portfolio Row Ends-->
+  
+  
+  <div class="row" id="section3"> <!--Contact Row Starts-->
+
+   <div class="col-sm-2"></div>
+    <div class="col-sm-8 contactSection">
+      <h2 class="text-center">Contact</h2>
+      <hr class="centered"><br>
+      <div class="flexIt">
+        <div class="contactForm">
+          <form action="http://www.youcodegirl.net" method="get">
+            <input class="formStyle" type="text" name="Name" placeholder="Name"><br><br>
+            <input class="formStyle" type="email" name="Email" placeholder="Email" required><br><br>
+            <input class="formStyle" type="text" name="Phone" placeholder="Phone number"><br><br>
+            <textarea class="formStyle" name="Message" placeholder=" Message" rows="5" required></textarea><br><br>
+            <button class="formButtons" type="submit">Submit</button> &nbsp; <button class="formButtons" type="reset">Reset</button>
+          </form>
+        </div>
+        
+        <div class="contactText">
+          <p>Need a new website, or need to update your current one? Do you have any graphic design needs? I would love to hear from you so we can discuss how my skills can be used to make your vision a reality! Shoot me a message, and I'll be in touch with you as soon as possible!</p>
+        </div>
+      </div>
+    <div class="col-sm-2"></div>
+      </div>
+  </div> <!--Contact Row Ends-->
+
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-8 text-center connect">
+        
+        <a href="https://twitter.com/vivian_maxine" target="_blank"><svg class="social" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z"/></svg></a>
+        
+        <a href="https://www.instagram.com/vivmcmviv/" target="_blank"><svg class="social" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.25 7.288v1.269c0 .297-.241.539-.538.539h-1.269c-.299 0-.538-.242-.538-.539v-1.269c0-.297.239-.538.538-.538h1.269c.297 0 .538.241.538.538zm-5.25 7.403c1.486 0 2.693-1.205 2.693-2.692s-1.207-2.69-2.693-2.69c-1.487 0-2.691 1.204-2.691 2.691s1.204 2.691 2.691 2.691zm4.261-3.291c.028.196.046.396.046.599 0 2.38-1.928 4.308-4.307 4.308s-4.307-1.928-4.307-4.307c0-.204.018-.403.046-.599.027-.194.066-.383.118-.567h-1.107v5.879c0 .297.241.538.538.538h9.424c.297 0 .538-.241.538-.538v-5.879h-1.107c.05.184.09.373.118.566zm7.739.6c0 6.627-5.373 12-12 12s-12-5.373-12-12 5.373-12 12-12 12 5.373 12 12zm-5-5.385c0-.892-.723-1.615-1.615-1.615h-10.77c-.892 0-1.615.723-1.615 1.615v10.769c0 .893.723 1.616 1.615 1.616h10.77c.892 0 1.615-.723 1.615-1.616v-10.769z"/></svg></a>
+        
+        <a href="https://www.linkedin.com/in/viviancrosby/" target="_blank"><svg class="social" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"/></svg></a>
+        
+        <a href="https://www.pinterest.com/vmcmv/" target="_blank"><svg class="social" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.372-12 12 0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146 1.124.347 2.317.535 3.554.535 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z" fill-rule="evenodd" clip-rule="evenodd"/></svg></a>
+        
+        <a href="https://github.com/vivianmaxine" target="_blank"><svg class="social" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+        
+      </div>
+      <div class="col-sm-2"></div>
+      
+    </div>
+  
+  <div class="row">
+    <div class="col-sm-2"></div>
+
+    <div class="col-sm-8 footer text-center">
+        Made with ♥ Vivian Maxine
+    </div>
+    
+    <div class="col-sm-2"></div>
+
+    
+</div> <!--Page container-->
+
+</body>
+</html>
