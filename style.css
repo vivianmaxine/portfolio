@@ -32,7 +32,7 @@ a:hover {
 }
 
 .top {
-  background-color: #B99BB9;
+  background-color: #06c;
   box-shadow: 2px 2px 3px #333;
   position: fixed; /*position, top, and width properties work together to create fixed navbar*/
   top: 0;
